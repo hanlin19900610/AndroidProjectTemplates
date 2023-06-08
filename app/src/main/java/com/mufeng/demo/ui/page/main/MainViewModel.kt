@@ -1,7 +1,7 @@
 package com.mufeng.demo.ui.page.main
 
-import com.mufeng.baselibrary.base.BaseViewModel
-import com.mufeng.baselibrary.core.setState
+import com.mufeng.libs.base.BaseViewModel
+import com.mufeng.libs.core.mvi.setState
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 

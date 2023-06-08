@@ -4,15 +4,15 @@ import android.os.Bundle
 import androidx.fragment.app.Fragment
 import com.mufeng.demo.ui.adapter.ViewPagerAdapter
 import com.mufeng.demo.ui.page.explore.ExploreFragment
-import com.lnkj.android.demo.ui.page.home.HomeFragment
+import com.mufeng.demo.ui.page.home.HomeFragment
 import com.mufeng.demo.ui.page.message.MessageFragment
 import com.mufeng.demo.ui.page.mine.MineFragment
-import com.mufeng.baselibrary.base.BaseVMActivity
-import com.mufeng.baselibrary.core.observeState
-import com.mufeng.baselibrary.utils.clickWithTrigger
-import com.mufeng.baselibrary.utils.onPageSelected
-import com.mufeng.baselibrary.utils.toast
 import com.mufeng.demo.databinding.ActivityMainBinding
+import com.mufeng.libs.base.BaseVMActivity
+import com.mufeng.libs.core.mvi.observeState
+import com.mufeng.libs.utils.toast
+import com.mufeng.libs.utils.view.clickWithTrigger
+import com.mufeng.libs.utils.view.onPageSelected
 
 class MainActivity : BaseVMActivity<MainViewModel, ActivityMainBinding>() {
 

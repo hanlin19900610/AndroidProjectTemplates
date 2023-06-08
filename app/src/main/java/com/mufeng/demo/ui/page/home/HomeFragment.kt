@@ -1,9 +1,8 @@
-package com.lnkj.android.demo.ui.page.home
+package com.mufeng.demo.ui.page.home
 
 import android.os.Bundle
-import com.mufeng.baselibrary.base.BaseVMFragment
 import com.mufeng.demo.databinding.FragmentHomeBinding
-import com.mufeng.demo.ui.page.home.HomeViewModel
+import com.mufeng.libs.base.BaseVMFragment
 
 class HomeFragment: BaseVMFragment<HomeViewModel, FragmentHomeBinding>() {
     override fun initView(savedInstanceState: Bundle?) {

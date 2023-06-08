@@ -1,6 +1,6 @@
 package com.mufeng.demo.ui.page.explore
 
-import com.mufeng.baselibrary.base.BaseViewModel
+import com.mufeng.libs.base.BaseViewModel
 
 
 class ExploreViewModel: BaseViewModel() {
